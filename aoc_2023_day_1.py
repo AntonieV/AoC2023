@@ -37,6 +37,8 @@ def get_solution_2(data):
     return get_solution_1(data_preprocessed)
 
 
+
+
 file_1 = "data/day_1_1.txt"
 file_2 = "data/day_1_2.txt"
 
