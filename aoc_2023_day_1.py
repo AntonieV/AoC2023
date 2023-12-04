@@ -39,14 +39,11 @@ def get_solution_2(data):
 
 
 
-file_1 = "data/day_1_1.txt"
-file_2 = "data/day_1_2.txt"
+file = "data/day_1.txt"
 
-data_1 = read_file(file_1)
-solution_1 = get_solution_1(data_1)
-
-data_2 = read_file(file_2)
-solution_2 = get_solution_2(data_2)
+data = read_file(file)
+solution_1 = get_solution_1(data)
+solution_2 = get_solution_2(data)
 
 print("Solution 1-1:", solution_1)
-print("Solution 1-2:", solution_2)
+print("Solution 1-2:", solution_2) 
