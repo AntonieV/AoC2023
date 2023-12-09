@@ -69,6 +69,7 @@ def get_cards_type(cards, sol_id=""):
         card_set = "One pair"
     return card_set, CARD_SET_TYPES[card_set]
 
+
 def translate_card_strenght(cards, sol_id=""):
     if sol_id == "sol_2":
         return ''.join([CARD_STRENGTH_SOL_2[char] for char in list(cards)])
