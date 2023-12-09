@@ -49,8 +49,7 @@ def get_cards_type(cards, sol_id=""):
     if sol_id == "sol_2" and "J" in counts:
         counts = get_counts_for_solution_2(cards, counts)          
         
-    counts = sorted(counts.values(), reverse=True)    
-    print(counts)
+    counts = sorted(counts.values(), reverse=True)  
     highest = counts[0]      
     if len(counts) > 1:
         next_highest = counts[1]
